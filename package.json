@@ -9,7 +9,7 @@
     "start": "node -r esm apis/auth/auth.js & node -r esm apis/student/student.js & node -r esm apis/course/course.js & node -r esm gateway.js"
   },
   "dependencies": {
-    "@apollo/federation": "^0.21.0",
+    "@apollo/federation": "^0.27.1",
     "@apollo/gateway": "^0.22.0",
     "apollo-server-express": "^2.19.2",
     "cookie-parser": "^1.4.5",
